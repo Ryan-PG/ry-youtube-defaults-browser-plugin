@@ -8,6 +8,12 @@ The popup is **bilingual** (Persian / English), with **Persian as the default la
 
 ---
 
+## Demo
+
+<img src="demo.png" height="700" alt="Plugin Picture">
+
+---
+
 ## ✨ Features
 
 - 🎚 **Default speed** — pick from ready-made values (0.25x to 2x) or enter a custom number (0.07 to 16).
