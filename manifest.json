@@ -3,16 +3,20 @@
   "name": "YouTube Default Settings",
   "version": "1.0.0",
   "description": "Automatically apply your default playback quality and speed on YouTube - both for videos and Shorts. Works on Chrome and Firefox.",
-  "permissions": ["storage"],
-
+  "permissions": [
+    "storage"
+  ],
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["content.js"],
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_start"
     }
   ],
-
   "action": {
     "default_popup": "popup.html",
     "default_title": "YouTube Default Settings",
@@ -23,18 +27,19 @@
       "128": "icons/icon128.png"
     }
   },
-
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-
   "browser_specific_settings": {
     "gecko": {
-      "id": "yt-default-settings@example.com",
-      "strict_min_version": "115.0"
+      "id": "ry-youtube-defaults-browser-plugin@RyanHeida",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }

@@ -1,4 +1,4 @@
-# YouTube Default Settings
+# Ry-YouTube Default Settings
 
 > A browser extension that automatically applies your **default playback quality and speed** on YouTube — both for regular videos and Shorts. Works on **Google Chrome** and **Mozilla Firefox** from a single Manifest V3 package.
 
