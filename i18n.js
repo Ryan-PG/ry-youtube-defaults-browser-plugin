@@ -9,7 +9,7 @@
 (() => {
   "use strict";
 
-  const DEFAULT_LANG = "fa";
+  const DEFAULT_LANG = "en";
   const SUPPORTED = ["fa", "en"];
 
   // ---- translation dictionary ---------------------------------------
@@ -38,7 +38,7 @@
       lang_en: "EN",
     },
     en: {
-      app_title: "YouTube Defaults",
+      app_title: "Ry-YouTube Defaults",
       toggle_hint: "Enable / disable the extension",
       card_video: "Videos",
       card_shorts: "Shorts",
